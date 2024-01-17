@@ -1,0 +1,591 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+*{
+  font-family: 'Mulish', sans-serif;
+}
+.header{
+  width: 1440px;
+height: 6940px;
+}
+/*  nav part  */
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+.nav-container img{
+
+  width: 48px;
+height: 56.008px;
+
+
+
+}
+.nav-container{
+  display: flex;
+ align-items: center;
+ padding-left: 135px;
+ padding-top: 52px;
+}
+.nav-container p{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-left: 20px;
+}
+.travel{
+  color: #FF5400;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.nav-items{
+ 
+
+  color: var(--Dark-02, #2e2e31);
+align-items: center;
+justify-content: space-between;
+display: flex;
+display: inline-flex;
+padding: 10px 0px;
+justify-content: center;
+align-items: center;
+gap: 44px;
+width: 50%;
+padding-top: 68px;
+
+
+}
+.nav-items a{
+ 
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+/* nav end */
+
+/* banner start */
+
+.bnr{
+ width: 100%;
+    text-align: center;
+border-radius: 16px;
+margin-top: 50px;
+margin-left: 136px;
+margin-right: 100px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+    url('./Images/banner.png');
+    width: 1197px;
+    height: 500px;
+    flex-shrink: 0;
+   
+
+position: relative;
+
+}
+
+
+.heading{
+    color: #FFF;
+   padding-left: 187px;
+   padding-right: 187px;
+   padding-top: 800px;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: normal;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.para1{
+    color: #FFF;
+    text-align: center;
+   
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    text-align: center;
+   margin-bottom: 55px;
+   margin-top: -55px;
+}
+
+.bttn{
+  display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+margin-top: -100px;
+
+
+}
+.b1{
+  color: rgba(19, 19, 24, 0.50);
+  width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+border: none;
+text-align: left;
+padding-left: 20px;
+font-size: 16px;
+}
+.b2{
+  color: rgba(19, 19, 24, 0.50);
+    width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+  border: none;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.b3{
+  color: rgba(19, 19, 24, 0.50);
+    width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+  border: none;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.b4{
+ display: inline-flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+    width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+ color: #FFF;
+  border: none;
+  text-align: left;
+  background: orangered;
+  border: 0;
+
+  font-size: 16px;
+}
+
+.popular{
+  display: flex;
+  margin-top: 50px;
+
+margin-top: 100px;
+margin-left: 136px;
+margin-right: 100px;
+}
+.pop-content{
+  .popu{
+  color: #131318;
+
+font-family: Mulish;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: -7px;
+
+}
+}
+.pop-img{
+  width: 540px;
+height: 550px;
+flex-shrink: 0;
+margin-right: -40px;
+margin-left: 100px;
+padding-right: -350px;
+
+}
+.card1{
+  margin-top: -20px;
+  color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.card2{
+  color: rgba(19, 19, 24, 0.70);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.card3{
+  color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.card4{
+  color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.card5{
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.read{
+ margin-top: 0px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+       width: 174px;
+     height: 52px;
+     flex-shrink: 0;
+     border-radius: 8px;
+    color: #FFF;
+     border: none;
+     text-align: left;
+     background: orangered;
+     border: 0;
+     color: #FFF;
+     text-align: center;
+     font-family: Mulish;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+   }
+
+.choose{
+   .hd{
+    padding-top: 50px;
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-left: 100px;
+   }
+  .para2{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+text-align: center;
+justify-content: center;
+padding-left: 20px;
+margin-left: 60px;
+  }
+  .imag{
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+   
+ padding: 20px;
+ padding-left: 50px;
+  
+  .a1{
+    display: flex;
+  display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+   
+    text-align: left;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: -40px;
+    .maldives{
+      color: #FFF;
+  text-align: left;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  margin-left: -580px;
+  
+     }
+     .indonesia{
+      color: #FFF;
+  text-align: left;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  margin-left: 580px;
+     }
+
+   }
+   .a2{
+    display: flex;
+    display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 20px;
+     
+      text-align: left;
+      align-items: center;
+      padding-left: 10px;
+      margin-left: -20px;
+   
+       .srilanka{
+        color: #FFF;
+        text-align: left;
+        font-family: Mulish;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        position: absolute;
+        margin-left: -780px;
+       }
+       .north-america{
+        color: #FFF;
+        text-align: left;
+        font-family: Mulish;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        position: absolute;
+        margin-left: 120px;
+       }
+       .kashmir{
+        color: #FFF;
+        text-align: left;
+        font-family: Mulish;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        position: absolute;
+        margin-left: 900px;
+       }
+   }
+   .a3{
+    display: flex;
+   
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 20px;
+     
+      text-align: left;
+      align-items: center;
+      padding-left: 10px;
+      margin-left: -20px;
+       
+   .bd{
+    color: #FFF;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    margin-left: -680px;
+   }
+   .bandarban{
+    color: #FFF;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    margin-left: 500px;
+   }
+
+   }
+  
+  }
+}
+ 
+  .body5{
+   
+    .us{
+      padding-top: 50px;
+      color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-left: 100px;
+     }
+    .para3{
+      color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  text-align: center;
+  justify-content: center;
+  padding-left: 20px;
+  margin-left: 60px;
+    }
+
+   
+
+   
+
+
+}
+.all{
+  display: flex;
+  margin-top: 50px;
+
+margin-top: 100px;
+margin-left: 136px;
+margin-right: 50px;
+
+}
+.c1{
+      
+  margin-left: 20px;
+  margin-top: -40px;
+  width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+
+.h2{
+color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-left: 30px;
+margin-left: 30px;
+}
+.p{
+width: 486px;
+color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+}
+.c2{
+ 
+      
+  margin-left: 20px;
+  margin-top: -40px;
+  width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+
+.h2{
+color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-left: 30px;
+margin-left: 30px;
+}
+.p{
+width: 486px;
+color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+}
+.middle{
+  display: center;
+}
+  .c3{
+ 
+      
+    margin-left: 33%;
+    margin-top: 20px;
+    width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  
+  .h2{
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-left: 30px;
+  margin-left: 30px;
+  }
+  .p{
+  width: 486px;
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  }
+  }
+}
